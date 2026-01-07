@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+header {
+    margin: 30px 43px 130px 99px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 100%;
+    cursor: pointer;
+    color: #989D9C;
+    word-spacing: 13px;
+
+
+}
+
+.button1 {
+    width: 130px;
+    height: 44px;
+    border-radius: 20.5px;
+    background: #665AE1;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+img {
+
+    width: 568px;
+    height: 500px;
+    margin-left: 82px;
+    display: inline-block;
+
+}
+
+.container-right {
+    display: inline-block;
+    margin-left: 86px;
+
+}
+
+h1 {
+
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+
+
+}
+
+h2 {
+
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 100%;
+    color: #515151;
+
+}
+
+p {
+
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    color: #848484;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+
+
+}
+
+.botton2 {
+    width: 239px;
+    height: 64px;
+    border-radius: 35.5px;
+    background: #ADFF00;
+    border: none;
+
+
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 100%;
+    color: #000000;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+
+}
+
+@media screen and (max-width: 900px) {
+    .container-right {
+        width: 100%;
+        height: auto;
+        padding: 40px;
+        display: block;
+        position: static;
+
+
+    
+    }
+    img {
+        position: static;
+        width: 354px;
+        height: 317px;
+        margin-top: 25%;
+
+
+    }
+
+    header {
+        display: none;
+    }
+
+    p {
+        display: none;
+    }
+
+    h1 {
+        height: 263px;
+        width: 52px;
+
+        font-weight: 900px;
+        font-size: 60px;
+        line-height: 100%;
+        position: relative;
+        margin-right: 200px;
+        text-align: center;
+
+
+    }
+
+    h2 {
+        height: 232px;
+        font-weight: 500px;
+        font-size: 30px;
+        line-height: 100%;
+        margin-top: -121px;
+    }
+
+    .botton2 {
+            padding: 10px 20px;
+            font-size: 16px;
+    
+    }
+
+}
