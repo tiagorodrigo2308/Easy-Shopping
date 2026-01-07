@@ -7,5 +7,4 @@
 .container{
     width: calc((50vw + 200px) / 2);
     height: calc(100vh - 200px);
-    background: red;
-}
+    background: blue;
